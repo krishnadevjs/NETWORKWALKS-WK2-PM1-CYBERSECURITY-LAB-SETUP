@@ -1,0 +1,35 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+secrets.*
+credentials.*
+
+# Local tooling and temporary files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.tmp/
+*.swp
+*.swo
+*~
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local exports and archives (review before intentionally adding)
+*.zip
+*.tar
+*.tar.gz
+*.7z
