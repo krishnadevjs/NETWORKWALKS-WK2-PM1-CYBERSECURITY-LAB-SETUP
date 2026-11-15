@@ -1,6 +1,6 @@
 # W2-PM5 — Zenmap Network Scanning
 
-**Target:** `127.0.0.1` (local host)  
+**Target:** `127.0.0.1` (local host)
 **Status:** Practical run; evidence review pending
 
 ## Objective

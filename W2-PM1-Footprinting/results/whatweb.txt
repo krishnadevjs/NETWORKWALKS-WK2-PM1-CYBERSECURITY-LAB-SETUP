@@ -1,0 +1,137 @@
+WhatWeb report for [1m[34mhttps://networkwalks.com[0m
+Status    : 200 OK
+Title     : [1m[33mNetworkwalks Academy[0m
+IP        : 192.232.216.135
+Country   : [1m[31mUNITED STATES, US[0m
+
+Summary   : [1mApache[0m, [1mBootstrap[0m[[1m[32m7.1.4[0m], [1mCookies[0m[[0m[22m__wpdm_client[0m], [1mEmail[0m[[0m[22minfo@networkwalks.com[0m], [1mFrame[0m, [1mGoogle-Tag-Manager[0m, [1mHTML5[0m, [1mHTTPServer[0m[[1m[36mApache[0m], [1mHttpOnly[0m[[0m[22m__wpdm_client[0m], [1mJQuery[0m[[1m[32m3.7.1[0m], [1mMetaGenerator[0m[[0m[22mWordPress 7.1.4,WordPress Download Manager 3.3.76[0m], [1mOpen-Graph-Protocol[0m[[1m[32mwebsite[0m], [1mScript[0m[[0m[22m4684NR-IPIB&amp;pidnVar2=50511&amp;prtVar2=7&amp;scvVar2=12,application/json,application/ld+json,module,speculationrules,text/javascript[0m], [1mUncommonHeaders[0m[[0m[22mpermissions-policy,link,referrer-policy,x-endurance-cache-level,x-nginx-cache[0m], [1mWordPress[0m[[1m[32m7.1.4[0m]
+
+Detected Plugins:
+[ [1mApache[0m ]
+	The Apache HTTP Server Project is an effort to develop and
+	maintain an open-source HTTP server for modern operating
+	systems including UNIX and Windows NT. The goal of this
+	project is to provide a secure, efficient and extensible
+	server that provides HTTP services in sync with the current
+	HTTP standards.
+
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ [1mBootstrap[0m ]
+	Bootstrap is an open source toolkit for developing with
+	HTML, CSS, and JS.
+
+	Version      : [1m[32m7.1.4[0m
+	Website     : https://getbootstrap.com/
+
+[ [1mCookies[0m ]
+	Display the names of cookies in the HTTP headers. The
+	values are not returned to save on space.
+
+	String       : [1m[36m__wpdm_client[0m
+
+[ [1mEmail[0m ]
+	Extract email addresses. Find valid email address and
+	syntactically invalid email addresses from mailto: link
+	tags. We match syntactically invalid links containing
+	mailto: to catch anti-spam email addresses, eg. bob at
+	gmail.com. This uses the simplified email regular
+	expression from
+	http://www.regular-expressions.info/email.html for valid
+	email address matching.
+
+	String       : [1m[36minfo@networkwalks.com[0m
+	String       : [1m[36minfo@networkwalks.com[0m
+
+[ [1mFrame[0m ]
+	This plugin detects instances of frame and iframe HTML
+	elements.
+
+
+[ [1mGoogle-Tag-Manager[0m ]
+	This plugin identifies Google Tag Manager.
+
+	Website     : http://www.google.com/tagmanager/
+
+[ [1mHTML5[0m ]
+	HTML version 5, detected by the doctype declaration
+
+
+[ [1mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to
+	identify the operating system from the server header.
+
+	String       : [1m[36mApache[0m (from server string)
+
+[ [1mHttpOnly[0m ]
+	If the HttpOnly flag is included in the HTTP set-cookie
+	response header and the browser supports it then the cookie
+	cannot be accessed through client side script - More Info:
+	http://en.wikipedia.org/wiki/HTTP_cookie
+
+	String       : [1m[36m__wpdm_client[0m
+
+[ [1mJQuery[0m ]
+	A fast, concise, JavaScript that simplifies how to traverse
+	HTML documents, handle events, perform animations, and add
+	AJAX.
+
+	Version      : [1m[32m3.7.1[0m
+	Website     : http://jquery.com/
+
+[ [1mMetaGenerator[0m ]
+	This plugin identifies meta generator tags and extracts its
+	value.
+
+	String       : [1m[36mWordPress 7.1.4,WordPress Download Manager 3.3.76[0m
+
+[ [1mOpen-Graph-Protocol[0m ]
+	The Open Graph protocol enables you to integrate your Web
+	pages into the social graph. It is currently designed for
+	Web pages representing profiles of real-world things .
+	things like movies, sports teams, celebrities, and
+	restaurants. Including Open Graph tags on your Web page,
+	makes your page equivalent to a Facebook Page.
+
+	Version      : [1m[32mwebsite[0m
+
+[ [1mScript[0m ]
+	This plugin detects instances of script HTML elements and
+	returns the script language/type.
+
+	String       : [1m[36m4684NR-IPIB&amp;pidnVar2=50511&amp;prtVar2=7&amp;scvVar2=12,application/json,application/ld+json,module,speculationrules,text/javascript[0m
+
+[ [1mUncommonHeaders[0m ]
+	Uncommon HTTP server headers. The blacklist includes all
+	the standard headers and many non standard but common ones.
+	Interesting but fairly common headers should have their own
+	plugins, eg. x-powered-by, server and x-aspnet-version.
+	Info about headers can be found at www.http-stats.com
+
+	String       : [1m[36mpermissions-policy,link,referrer-policy,x-endurance-cache-level,x-nginx-cache[0m (from headers)
+
+[ [1mWordPress[0m ]
+	WordPress is an opensource blogging system commonly used as
+	a CMS.
+
+	Version      : [1m[32m7.1.4[0m
+	Aggressive function available (check plugin file or details).
+	Google Dorks: (1)
+	Website     : http://www.wordpress.org/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 15 Nov 2026 04:22:42 GMT
+	Server: Apache
+	Permissions-Policy: private-state-token-redemption=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com"), private-state-token-issuance=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com")
+	Link: <https://networkwalks.com/wp-json/>; rel="https://api.w.org/", <https://networkwalks.com/wp-json/wp/v2/pages/53>; rel="alternate"; title="JSON"; type="application/json", <https://networkwalks.com/>; rel=shortlink
+	Set-Cookie: __wpdm_client=<REDACTED>; path=/; domain=networkwalks.com; secure; HttpOnly
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Referrer-Policy: no-referrer-when-downgrade
+	X-Endurance-Cache-Level: 0
+	X-nginx-cache: WordPress
+	Connection: close
+	Transfer-Encoding: chunked
+	Content-Type: text/html; charset=UTF-8

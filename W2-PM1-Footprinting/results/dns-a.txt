@@ -1,0 +1,19 @@
+
+; <<>> DiG 9.20.24-1ubuntu0.5-Ubuntu <<>> networkwalks.com A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59769
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;networkwalks.com.		IN	A
+
+;; ANSWER SECTION:
+networkwalks.com.	14400	IN	A	192.232.216.135
+
+;; Query time: 356 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sun Nov 15 09:51:36 IST 2026
+;; MSG SIZE  rcvd: 61

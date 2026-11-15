@@ -1,0 +1,8 @@
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+networkwalks.com	nameserver = ns6136.hostgator.com.
+networkwalks.com	nameserver = ns6135.hostgator.com.
+
+Authoritative answers can be found from:
