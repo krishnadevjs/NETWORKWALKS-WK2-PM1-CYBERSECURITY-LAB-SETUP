@@ -2,21 +2,22 @@
 
 > **Practical lab submission** · Footprinting · Network Scanning · Technical Reporting
 
-This repository documents the selected Week 2 cybersecurity practical modules. Each module is organised so its methodology, captured output, screenshots, and conclusions can be reviewed independently.
+This repository contains the selected Week 2 practical modules and their supporting raw outputs, screenshots, and final report.
 
 ## Project overview
 
-The selected work is **W2-PM1** (one elective), together with the essential **W2-PM5** practical and **W2-PM-FINAL** report. Only completed work and genuine evidence will be included.
+Selected modules:
+- **W2-PM1** — Footprinting with multiple tools (elective)
+- **W2-PM5** — Zenmap-based network scanning (essential)
+- **W2-PM-FINAL** — Consolidated report covering the selected practicals
 
-### Module tracker
+## Module status
 
 | Module | Practical | Status |
 |---|---|---|
-| **W2-PM1** | Footprinting with multiple Kali/Linux tools | In progress |
-| **W2-PM5** | Network scanning using Zenmap | Practical run; evidence review pending |
-| **W2-PM-FINAL** | Consolidated final report | Pending |
-
-> Status is updated only after the practical work and its evidence are verified.
+| W2-PM1 | Footprinting with six tools | Evidence committed |
+| W2-PM5 | Zenmap / Nmap local-host scan | Evidence committed |
+| W2-PM-FINAL | Detailed report | Draft published; student/course details to be completed |
 
 ## Repository structure
 
@@ -33,55 +34,29 @@ The selected work is **W2-PM1** (one elective), together with the essential **W2
 │   ├── results/
 │   └── screenshots/
 └── W2-PM-FINAL-Report/
-    └── REPORT-TEMPLATE.md
+    └── FINAL-REPORT.md
 ```
 
 ## Practical scope
 
-### W2-PM1 — Footprinting with multiple tools
+### W2-PM1 — Footprinting
 
-The practical uses publicly available information about the assignment domain, `networkwalks.com`, to demonstrate basic footprinting and technology identification.
-
-Tools used/planned:
-
-- WHOIS — domain registration information
-- DIG — DNS record queries
-- HOST — DNS lookups
-- NSLOOKUP — DNS query verification
-- WhatWeb — web technology identification
-- [Add another tool only if it was actually used for this module]
-
-The report will distinguish observed output from interpretation. Technology fingerprints and publicly visible records are **not** treated as proof of a vulnerability.
+The PM1 practical uses publicly observable information for `networkwalks.com`. Six tools were used: WHOIS, DIG, HOST, NSLOOKUP, WhatWeb and cURL. The report distinguishes raw observations from interpretation; technology fingerprints are not treated as proof of vulnerabilities.
 
 ### W2-PM5 — Zenmap network scanning
 
-The essential scanning practical uses Zenmap/Nmap to inspect the local host (`127.0.0.1`). Evidence includes the saved Zenmap scan and corresponding Nmap service-detection output. Findings are specific to this local test target and must not be interpreted as a scan of the assignment website or an external network.
+The PM5 practical scanned `127.0.0.1` (the local host). The recorded results identify TCP port 631 as IPP/CUPS 2.4 and report 999 other scanned TCP ports closed. This scan did not target `networkwalks.com` or an external network.
 
-### W2-PM-FINAL — Final report
+## Evidence and responsible-use notes
 
-The final report will cover the selected and completed modules and include:
+- Raw command output is retained under each module's `results/` directory.
+- Screenshots are retained under each module's `screenshots/` directory.
+- The captured cURL/WhatWeb cookie value is redacted in the committed text output.
+- No credentials, API keys, access tokens or private keys should be committed.
+- Activities are documented for coursework and authorised learning. Do not scan systems or networks without permission.
 
-1. Objective and scope
-2. Lab environment and tools
-3. Methodology and commands
-4. Evidence and observations
-5. Results and interpretation
-6. Limitations
-7. Conclusion and references
+## Final report
 
-## Evidence and reporting standards
+See [W2-PM-FINAL-Report/FINAL-REPORT.md](W2-PM-FINAL-Report/FINAL-REPORT.md) for objectives, scope, methodology, findings, limitations, conclusion and evidence index.
 
-- Screenshots should clearly show the relevant tool, target, and result.
-- Retain raw outputs where practical and pair them with readable explanations.
-- Support findings with reproducible evidence.
-- Describe failed, incomplete, or inconclusive steps honestly.
-- Never commit credentials, API keys, access tokens, private keys, or unrelated personal data.
-- Review screenshots and outputs for usernames, hostnames, private network details, and other information that is unnecessary for assessment.
-
-## Responsible-use statement
-
-All activities are intended for coursework and authorised learning. Footprinting is limited to publicly available information for the stated assignment domain. Network scanning is limited to the selected local lab target unless separate written authorisation is obtained. Do not use these procedures against systems or networks without permission.
-
-## Submission status
-
-This repository is a work in progress. It is ready for submission only after the evidence has been reviewed, module statuses have been verified, and the completed final report has been added.
+**Submission note:** Replace the student/course placeholders in the final report and export it to PDF if required by the submission portal.
